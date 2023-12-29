@@ -73,9 +73,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -149,7 +149,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ML">ML <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -162,25 +162,74 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1703869119701" data-listing-reading-time-sort="5">
+<div class="quarto-post image-right" data-index="0" data-categories="ML" data-listing-date-sort="1703788200000" data-listing-file-modified-sort="1703870187018" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
 <div class="thumbnail">
-<p><a href="./posts/pml-assignment3-dy.html"> <p class="card-img-top"><img src="posts/pml-assignment3-dy_files/figure-html/cell-7-output-1.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./posts/pml-ass3.html"> <p class="card-img-top"><img src="posts/pml-ass3_files/figure-html/cell-6-output-1.png"  class="thumbnail-image card-img"/></p> </a></p>
 </div>
 <div class="body">
-<a href="./posts/pml-assignment3-dy.html">
+<a href="./posts/pml-ass3.html">
 <h3 class="no-anchor listing-title">
-Q1
+PML Assignment 3
 </h3>
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('ML'); return false;">
+ML
+</div>
+</div>
+<a href="./posts/pml-ass3.html">
 <div class="listing-description">
-<span class="math display">\[\frac{1}{\sqrt{2\pi}} \int_{-\infty}^{+\infty}  e^{-\frac{x^2}{2}} \, dx = 1\]</span>
+<p>My PML Assignment 3.</p>
 </div>
 </a>
 </div>
 <div class="metadata">
-<a href="./posts/pml-assignment3-dy.html"> </a>
+<a href="./posts/pml-ass3.html">
+<div class="listing-date">
+Dec 29, 2023
+</div>
+<div class="listing-author">
+Dhairya Shah
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="ML" data-listing-date-sort="1398882600000" data-listing-file-modified-sort="1703869575788" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="thumbnail">
+<p><a href="./posts/2014-05-01-dtw.html"> <p class="card-img-top"><img src="posts/2014-05-01-dtw_files/figure-html/cell-4-output-1.png"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2014-05-01-dtw.html">
+<h3 class="no-anchor listing-title">
+Programatically understanding dynamic time warping (DTW)
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('ML'); return false;">
+ML
+</div>
+</div>
+<a href="./posts/2014-05-01-dtw.html">
+<div class="listing-description">
+<p>Signal processing for unequal time series!</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2014-05-01-dtw.html">
+<div class="listing-date">
+May 1, 2014
+</div>
+<div class="listing-author">
+Nipun Batra
+</div>
+</a>
 </div>
 </div>
 </div>
